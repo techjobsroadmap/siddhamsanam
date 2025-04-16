@@ -1,13 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Helmet } from "react-helmet";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import FeatureCards from "@/components/FeatureCards";
+import LearnSection from "@/components/LearnSection";
+import RemediesSection from "@/components/RemediesSection";
+import CommunitySection from "@/components/CommunitySection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>Siddha Medicine & Studies | Ancient Wisdom, Modern Wellness</title>
+        <meta name="description" content="Discover the ancient wisdom of Siddha Medicine adapted for modern wellness. Learn about traditional remedies, consult with practitioners, and join our community." />
+      </Helmet>
+      
+      <div className="min-h-screen max-w-6xl mx-auto my-8 rounded-xl overflow-hidden shadow-xl">
+        <Navbar />
+        <Hero />
+        <FeatureCards />
+        <LearnSection />
+        <RemediesSection />
+        <CommunitySection />
       </div>
-    </div>
+    </>
   );
 };
 
