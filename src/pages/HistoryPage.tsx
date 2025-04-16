@@ -1,7 +1,7 @@
 
 import { Helmet } from "react-helmet";
 import Navbar from "@/components/Navbar";
-import { ScrollText, Leaf, Flask } from "lucide-react";
+import { ScrollText, Leaf, TestTube } from "lucide-react";
 
 const HistoryPage = () => {
   const timelineEvents = [
@@ -21,7 +21,7 @@ const HistoryPage = () => {
       year: "1000 BCE",
       title: "Scientific Advancement",
       description: "Development of mineral and metallic medicines",
-      icon: <Flask className="w-6 h-6 text-siddha-accent-green" />
+      icon: <TestTube className="w-6 h-6 text-siddha-accent-green" />
     }
   ];
 
@@ -73,3 +73,4 @@ const HistoryPage = () => {
 };
 
 export default HistoryPage;
+
