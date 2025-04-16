@@ -1,4 +1,3 @@
-
 import { Helmet } from "react-helmet";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -15,7 +14,7 @@ const Index = () => {
         <meta name="description" content="Discover the ancient wisdom of Siddha Medicine adapted for modern wellness. Learn about traditional remedies, consult with practitioners, and join our community." />
       </Helmet>
       
-      <div className="min-h-screen max-w-6xl mx-auto my-8 rounded-xl overflow-hidden shadow-xl">
+      <div className="min-h-screen max-w-6xl mx-auto my-8 rounded-xl overflow-hidden shadow-xl pt-16">
         <Navbar />
         <Hero />
         <FeatureCards />
