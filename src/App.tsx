@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -13,6 +14,9 @@ import CommunityPage from "./pages/CommunityPage";
 import ContactPage from "./pages/ContactPage";
 import NotFound from "./pages/NotFound";
 import HistoryPage from "./pages/HistoryPage";
+import AcidityRemedyPage from "./pages/remedies/AcidityRemedyPage";
+import DetoxRemedyPage from "./pages/remedies/DetoxRemedyPage";
+import PulseDiagnosisPage from "./pages/remedies/PulseDiagnosisPage";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +36,9 @@ const App = () => (
           <Route path="/community" element={<CommunityPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/history" element={<HistoryPage />} />
+          <Route path="/remedies/acidity" element={<AcidityRemedyPage />} />
+          <Route path="/remedies/detox" element={<DetoxRemedyPage />} />
+          <Route path="/remedies/pulse-diagnosis" element={<PulseDiagnosisPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
