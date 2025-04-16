@@ -1,7 +1,7 @@
 
 import { Helmet } from "react-helmet";
 import Navbar from "@/components/Navbar";
-import { Leaf, Droplet, Pills } from "lucide-react";
+import { Leaf, Droplet, Pill } from "lucide-react";
 
 const StorePage = () => {
   const products = [
@@ -41,12 +41,12 @@ const StorePage = () => {
         {
           name: "Herbal Capsules",
           price: "$34.99",
-          icon: <Pills className="w-6 h-6 text-siddha-accent-green" />
+          icon: <Pill className="w-6 h-6 text-siddha-accent-green" />
         },
         {
           name: "Mineral Complex",
           price: "$39.99",
-          icon: <Pills className="w-6 h-6 text-siddha-accent-green" />
+          icon: <Pill className="w-6 h-6 text-siddha-accent-green" />
         }
       ]
     }
