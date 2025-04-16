@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { Hourglass, Stethoscope, BowlFood, Users } from "lucide-react";
+import { Hourglass, Stethoscope, Pizza, Users } from "lucide-react";
 
 const FeatureCards = () => {
   const features = [
@@ -15,7 +14,7 @@ const FeatureCards = () => {
       link: "/consult"
     },
     {
-      icon: <BowlFood className="w-10 h-10 text-siddha-accent-green" />,
+      icon: <Pizza className="w-10 h-10 text-siddha-accent-green" />,
       title: "Buy Medicine",
       link: "/store"
     },
