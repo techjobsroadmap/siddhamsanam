@@ -1,3 +1,4 @@
+
 /* Base Styles */
 :root {
   --siddha-green: #4D6336;
@@ -396,33 +397,6 @@ p {
   font-weight: normal;
 }
 
-/* Page Content */
-.page-content {
-  padding: 3rem 2rem;
-  background-color: var(--siddha-beige);
-}
-
-.page-header {
-  text-align: center;
-  margin-bottom: 2rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--siddha-dark-beige);
-}
-
-.content-section {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.content-section h2 {
-  margin-top: 2rem;
-  font-size: 1.8rem;
-}
-
-.content-section p {
-  color: var(--siddha-dark-green);
-}
-
 /* Footer */
 .footer {
   background-color: var(--siddha-dark-green);
@@ -557,8 +531,5 @@ p {
   .hero-buttons {
     flex-direction: column;
   }
-
-  .page-content {
-    padding: 2rem 1rem;
-  }
 }
+
